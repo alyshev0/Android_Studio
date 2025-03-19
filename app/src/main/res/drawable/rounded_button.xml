@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<snape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/soft_green"/>
-    <corners android:radius="24dp"/>
-</snape>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/soft_green" /> <!-- Цвет фона -->
+    <corners android:radius="24dp" /> <!-- Закругление углов -->
+</shape>

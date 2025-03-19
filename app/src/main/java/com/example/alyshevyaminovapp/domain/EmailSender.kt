@@ -34,20 +34,14 @@ class EmailSender {
         }
     }
     fun sendEmail(to:String,subject: String,body:String){
-        //val username = "tonyafizay@yandex.ru" // Email SMTP
-        val username = "androidstudio@mdktest.ru"
-        val password = "piwrrlvaoxgfhexx" // key SMTP
+        val username = "androidstudio@mdktest.ru" // Username SMTP
+        val password = "piwrrlvaoxgfhexx" // Key SMTP
 
-//        val props = java.util.Properties().apply {
-//            put("mail.smtp.auth","true")
-//            put("mail.smtp.starttls.enable", "true")
-//            put("mail.smtp.host", "smtp.gmail.com")
-//            put("mail.smtp.port", "587")
-//        }
+
         val props = java.util.Properties().apply {
             put("mail.smtp.auth","true")
             put("mail.smtp.starttls.enable", "true")
-            put("mail.smtp.host", "smtp.yandex.ru")
+            put("mail.smtp.host", "smtp.yandex.ru") // Яндекс Почта
             put("mail.smtp.port", "587")
         }
         val session = Session.getInstance(props,object : javax.mail.Authenticator() {

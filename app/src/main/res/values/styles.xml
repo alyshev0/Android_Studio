@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
-    //НАЧИНАТЬ ТУТ ИМЕННО
+    <style name="CustomBottomNavigationStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name = "itemIconTint">@color/background_color</item>
+        <item name="itemTextColor">@color/background_color</item>
+        <item name="itemPaddingTop">8dp</item>
+        <item name="itemPaddingBottom">8dp</item>
+        <item name="itemHorizontalPadding">32dp</item>
+    </style>
+    <style name="circular">
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>
