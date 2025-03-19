@@ -1,10 +1,6 @@
-package com.example.alyshevyaminovapp.domain
+package com.example.alyshevyaminovapp.domain.Services
 
 import android.util.Log
-import androidx.recyclerview.widget.RecyclerView.LayoutManager.Properties
-import com.example.alyshevyaminovapp.presentaion.ForgetPassword
-import java.net.Authenticator
-import java.net.PasswordAuthentication
 import javax.mail.Message
 import javax.mail.MessagingException
 import javax.mail.Session

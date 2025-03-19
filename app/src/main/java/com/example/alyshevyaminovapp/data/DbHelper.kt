@@ -7,11 +7,12 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.graphics.Bitmap
-import com.example.alyshevyaminovapp.domain.User
-
+import com.example.alyshevyaminovapp.domain.Models.User
+import java.io.ByteArrayOutputStream
+import android.graphics.BitmapFactory
 
 class DbHelper(private val context: Context, private val factory: SQLiteDatabase.CursorFactory?) :
-    SQLiteOpenHelper(context, "database", factory, version = 2) {
+    SQLiteOpenHelper(context, "database", factory, 2) {
 
     override fun onCreate(db: SQLiteDatabase?) {
         val query = "CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT DEFAULT NULL, login TEXT, email TEXT, password TEXT, profile_image BLOB)"

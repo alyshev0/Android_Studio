@@ -1,17 +1,15 @@
 package com.example.alyshevyaminovapp.presentaion
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import android.widget.ImageButton
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.example.alyshevyaminovapp.R
 import com.example.alyshevyaminovapp.data.DbHelper
-import com.example.alyshevyaminovapp.domain.EmailSender
-import com.example.alyshevyaminovapp.domain.EmailSender.Companion.sendNewPasswordByEmail
+import com.example.alyshevyaminovapp.domain.Services.EmailSender
+import com.example.alyshevyaminovapp.domain.Services.EmailSender.Companion.sendNewPasswordByEmail
 
 class ForgetPassword : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

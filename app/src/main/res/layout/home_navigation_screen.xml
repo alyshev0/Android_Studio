@@ -35,7 +35,7 @@
             android:layout_gravity="bottom"
             android:backgroundTint="@color/soft_green"
             app:fabAlignmentMode="center"
-            app:fabCradleMargin="4dp"
+            app:fabCradleMargin="16dp"
             app:fabCradleRoundedCornerRadius="50dp"
             app:fabAnchorMode="cradle">
 
@@ -57,7 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/soft_green"
-            android:src="@drawable/icons_plus"
+            android:src="@drawable/icons_shop"
             android:contentDescription="@string/app_name"
             app:layout_anchor="@id/bottomAppBar" />
 

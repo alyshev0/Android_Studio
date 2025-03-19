@@ -48,8 +48,10 @@ android {
 }
 
 dependencies {
-    implementation(libs.androidx.core.splashscreen)
+    implementation(libs.androidx.cardview)
 
+
+    implementation(libs.androidx.core.splashscreen)
     implementation(libs.android.mail)
     implementation(libs.android.activation)
 
